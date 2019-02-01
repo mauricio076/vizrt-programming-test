@@ -25,10 +25,11 @@ public class Main {
         List<Integer> operands = new ArrayList<>();
         boolean complete = true;
         for (int i = 2; i < input.length; i++) {
-            if (input[i].equals("+") || input[i].equals(" ")) continue;
+            if (input[i].equals("+") || input[i].equals(" ")) continue; // TODO: implement a better cleaning method
             try {
                 operands.add(Integer.parseInt(input[i]));
             } catch (NumberFormatException e) {
+                // Check if we have computed that variable already
                 if (variables.containsKey(input[i])) {
                     operands.add(variables.get(input[i]));
                 } else {
