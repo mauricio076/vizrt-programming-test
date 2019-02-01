@@ -1,6 +1,6 @@
-a = aaaa
+a = 3
 b = 2 + 4
-c = aaaa
+c = a
 d = b + 7
 e = b + c + d
 f = g
@@ -10,34 +10,5 @@ j = k + l
 i = e + 5
 k = a + b
 l = k + k
-
-aa = a
-bb = 2 + 4
-cc = aa
-ds = b + 7
-ee = b + c + d
-ff = g
-gg = 1 + 2 + 3
-hg = i + e + j
-jj = k + l
-ii = e + 5
-kk = a + b
-ll = k + k
-
-aaa = 3
-bbb = 2 + 4
-ccc = a
-ddd = b + 7
-eee = b + cc + d
-fff = g
-ggg = 1 + 2 + 3
-hhh = i + e + j
-jjj = k + l
-iii = e + 5
-kkk = a + b
-lll = k + k
-
-aaaa = 33
-
 
 
